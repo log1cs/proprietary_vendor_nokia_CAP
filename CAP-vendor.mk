@@ -112,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/CAP/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
     vendor/nokia/CAP/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
     vendor/nokia/CAP/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
+    vendor/nokia/CAP/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/nokia/CAP/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/nokia/CAP/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/nokia/CAP/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
@@ -1120,6 +1121,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.1 \
     CneApp \
     IWlanService \
+    TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
     embms \
@@ -1217,6 +1219,7 @@ PRODUCT_PACKAGES += \
     ssgqmigd \
     tftp_server \
     thermal-engine \
+    time_daemon \
     vendor.qti.hardware.soter@1.0-provision \
     xtra-daemon \
     xtwifi-client \
